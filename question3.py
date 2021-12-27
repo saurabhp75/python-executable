@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         self.widget = QWidget()               
         self.vbox = QVBoxLayout()               
 
-        object = QLabel("Click <a href='https://saurabhp75.github.io/'>here</a> for code")
+        object = QLabel("Click <a href='https://github.com/saurabhp75/python-executable'>here</a> for code")
         object.setOpenExternalLinks(True)
         self.vbox.addWidget(object)
 
